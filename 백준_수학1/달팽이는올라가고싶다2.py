@@ -1,5 +1,5 @@
-up, down, height = input().split()
+up, down, height = map(int,input().split())
 
 import math
 
-a, b, v = map(int, sys.stdin.readline().split())
+print(math.ceil((height - up) / (up - down))+1)
