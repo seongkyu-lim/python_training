@@ -26,11 +26,11 @@ for i in range(0,test_num) :
 
         if (client_num / floor_num) < 9 :
             
-            room_number = str(int(client_num % floor_num)) + '0' + str(int(client_num/ floor_num))
+            room_number = str(int(client_num % floor_num)) + '0' + str(int(client_num/ floor_num)+1)
 
         else :
 
-            room_number = str(int(client_num % floor_num)) + str(int(client_num / floor_num))
+            room_number = str(int(client_num % floor_num)) + str(int(client_num / floor_num)+1)
     
 
     room_number_list.insert(i, room_number)
