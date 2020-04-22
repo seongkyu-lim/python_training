@@ -3,7 +3,6 @@ testcase = int(input())
 
 start = 0
 end = 0
-count = 0
 
 start_list = []
 end_list = []
@@ -21,6 +20,8 @@ for i in range(0,testcase) :
 for i in range(0,testcase) :
 
     travel_distance = 0
+
+    count = 0
 
     while start_list[i] < end_list[i] :
 
@@ -73,9 +74,6 @@ for i in range(0,testcase) :
                     print(count+1)
 
                     break
-
-
-# 따로하면 잘되는데 한번에 하면 안됨.
 
 
 
