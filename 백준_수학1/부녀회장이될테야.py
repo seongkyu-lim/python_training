@@ -35,28 +35,13 @@ for i in range(0, testcase) :
                 if j == 1 :
 
                     num_of_people.insert(k, (k+2)*(k+1)/2)
-
-                    print(num_of_people[k]) #test
                 
                 else :
 
-                    print(num_of_people[k]) #test
-
                     a = a + num_of_people[k]
                     
-                    num_of_people.insert(k, a)
-
+                    num_of_people[k] = a
 
 
         print(int(num_of_people[room_case_list[i]-1]))
-
-
-        # else : 부분에서 J == 1 일 때 인원 수 넣어 주고 다음 반복문에서 넣어준게 다 1로 바뀜??
-
-
-
-
-
-
-
 
