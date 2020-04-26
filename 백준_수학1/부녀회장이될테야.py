@@ -41,7 +41,10 @@ for i in range(0, testcase) :
                     a = a + num_of_people[k]
                     
                     num_of_people[k] = a
+                
+            a = 0 
 
 
         print(int(num_of_people[room_case_list[i]-1]))
+
 
