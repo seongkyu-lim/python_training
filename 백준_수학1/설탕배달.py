@@ -1,15 +1,33 @@
 
 kg = int(input())
 
-i = 0
-j = 0
+if kg < 5 :
 
-kg = 5*i + 3*j
+    if (kg%3) == 0 :
 
-while kg/5 == int  :
+        print(1)
+    
+    else :
 
-    kg = kg/5
+        print(-1)
 
-    i = i + 1
+else : 
+
+    if kg%5 == 0  :
+
+        print (int(kg/5))
+
+    elif  (kg%5)%3 == 0 :
+
+        print( int((kg / 5) + 1))
+
+    elif kg%3 == 0 :
+
+        print (int(kg/3))
+
+    elif (kg%3)%5 == 0 :
+
+        print (int(kg / 3 + 1))
 
 
+    
